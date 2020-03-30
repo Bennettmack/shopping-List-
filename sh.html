@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+</head>
+    <link rel="stylesheet" href="sh.css">
+<body>
+    <div class="container">
+        <div id="name"> 
+            <h2>SHOPPING LIST</h2>  
+            <input type="text"placeholder="add item" name="add item" id="input">
+            <input type="submit"id="add"value="Add to cart" >
+            <input type="submit" name="remove from cart" id="remove"value="Remove from Cart" >
+        </div>
+        <input type="button" id="show" value="show" onclick="showoff()">
+        <input type="button" id="hide"value="hide" onclick="hide()">    
+                <ul id="ul">
+                    <li class="done">Sugar</li> 
+                    <li class="done"> Santizer</li>
+                    <li class="done">Handwash</li>
+                    <li class="done">Mask</li>
+                </ul>  
+        <input type="button" hidden name="delete" id="del" value="Delete">
+    </div>
+    <script src="sh.js"></script>
+</body>
+</html>
